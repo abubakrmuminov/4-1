@@ -127,6 +127,12 @@
 // // 9-mashq //
 // // ======= //
 
-const letters = ["M", "A", "R", "S"]
+// const letters = ["M", "A", "R", "S"]
 
-function printCodeWithIndex 
+// function printCodeWithIndex (a) {
+//     for (const letter in a) {
+//         console.log(letter, "-", a[letter])
+//     }
+// }
+
+// printCodeWithIndex(letters)
