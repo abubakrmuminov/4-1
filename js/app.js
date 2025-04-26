@@ -1,138 +1,200 @@
-// // ======= //
-// // 1-mashq //
-// // ======= //
+// ======= //
+// 1-mashq //
+// ======= //
 
-// const prices = [12000, 15000, 18000, 20000]
+function printPiccaPrices(a) {
+  const prices = [12000, 15000, 18000, 20000];
+  for (const price of prices) {
+    console.log(price);
+  }
+}
 
-// function printPiccaPrices (a) {
-//     for (const price of a) {
-//         console.log(price)
-//     }
-// }
+printPiccaPrices();
 
-// (printPiccaPrices(prices))
+// ======= //
+// 2-mashq //
+// ======= //
 
-// // ======= //
-// // 2-mashq //
-// // ======= //
+function greeetFriends(a) {
+  const frens = ["Ali", "Vali", "Sami"];
+  for (const fren of frens) {
+    console.log("Hello", fren);
+  }
+}
 
-// const frens = ["Ali", "Vali", "Sami"]
+greeetFriends();
 
-// function greeetFriends (a) {
-//     for (const fren of a) {
-//         console.log("Hello", fren)
-//     }
-// }
+// ======= //
+// 3-mashq //
+// ======= //
 
-// greeetFriends(frens)
+function convertPricesToStrings(a) {
+  const prices = [1000, 2500, 5000];
+  for (const price of prices) {
+    console.log(price + "");
+  }
+}
 
-// // ======= //
-// // 3-mashq //
-// // ======= //
+convertPricesToStrings();
 
-// const prices = [1000, 2500, 5000]
+// ======= //
+// 4-mashq //
+// ======= //
 
-// function convertPricesToStrings (a) {
-//     for (const price of a) {
-//         console.log(price + "")
-//     }
-// }
+function checkOddOrEven(a) {
+  const nums = [3, 6, 9, 10];
+  for (const num of nums) {
+    if (num % 2 === 0) {
+      console.log(num, "- Even");
+    } else {
+      console.log(num, "- Odd");
+    }
+  }
+}
 
-// convertPricesToStrings(prices)
+checkOddOrEven();
 
-// // ======= //
-// // 4-mashq //
-// // ======= //
+// ======= //
+// 5-mashq //
+// ======= //
 
-// const nums = [3, 6, 9, 10]
+function printStudentInfo(a) {
+  const student = ["Dilshod", 13];
+  console.log("Name:", student[0]);
+  console.log("Age:", student[1]);
+}
 
-// function checkOddOrEven (a) {
-//     for (const num of a) {
-//         if (num % 2 === 0) {
-//             console.log(num, "- Even")
-//         } else{
-//             console.log(num, "- Odd")
-//         }
-//     }
-// }
+printStudentInfo();
 
-// checkOddOrEven(nums)
+// ======= //
+// 6-mashq //
+// ======= //
 
-// // ======= //
-// // 5-mashq //
-// // ======= //
+function printExamResults(a) {
+  const ball = [56, 72, 88, 45, 100];
+  for (const bal of ball) {
+    if (bal >= 60) {
+      console.log(bal, "Passed");
+    } else {
+      console.log(bal, "Failed");
+    }
+  }
+}
 
-// const student = ["Dilshod", 13]
+printExamResults();
 
-// function printStudentInfo (a) {
-//     console.log("Name:", a[0])
-//     console.log("Age:", a[1])
-// }
+// ======= //
+// 7-mashq //
+// ======= //
 
-// printStudentInfo(student)
+function showMinorsOnly(a) {
+  const ages = ["12", "20", "15", "19", "14"];
+  for (const age of ages) {
+    if (age <= 18) {
+      console.log(parseInt(age));
+    }
+  }
+}
 
-// // ======= //
-// // 6-mashq //
-// // ======= //
+showMinorsOnly();
 
-// const ball = [56, 72, 88, 45, 100]
+// ======= //
+// 8-mashq //
+// ======= //
 
-// function printExamResults(a) {
-//     for (const bal of a) {
-//         if (bal >= 60) {
-//             console.log(bal, "Passed")
-//         } else{
-//             console.log(bal, "Failed")
-//         }
-//     }
-// }
+function showVowelsOnly(a) {
+  const harflar = ["M", "A", "R", "S", "U", "L", "E", "K"];
+  for (const harf of harflar) {
+    if (
+      harf == "A" ||
+      harf == "I" ||
+      harf == "U" ||
+      harf == "E" ||
+      harf == "O"
+    ) {
+      console.log(harf);
+    }
+  }
+}
 
-// printExamResults(ball)
+showVowelsOnly();
 
-// // ======= //
-// // 7-mashq //
-// // ======= //
+// ======= //
+// 9-mashq //
+// ======= //
 
-// const ages = ["12", "20", "15", "19", "14"]
+function printCodeWithIndex(a) {
+  const letters = ["M", "A", "R", "S"];
+  for (const letter in letters) {
+    console.log(letter, "-", letters[letter]);
+  }
+}
 
-// function showMinorsOnly (a) {
-//     for (const age of a) {
-        
+printCodeWithIndex();
 
-//         if (age <= 18) {
-//             console.log(parseInt(age))
-//         }
-//     }
-// }
+// ======== //
+// 10-mashq //
+// ======== //
 
-// showMinorsOnly(ages)
+function consvertAgesToNumbers(a) {
+  const ages = ["12", "13", "15", "16"];
 
-// // ======= //
-// // 8-mashq //
-// // ======= //
+  for (const age of ages) {
+    console.log(parseInt(age));
+  }
+}
 
-// const harflar = ['M', 'A', 'R', 'S', 'U', 'L', 'E', 'K']
+consvertAgesToNumbers();
 
-// function showVowelsOnly (a) {
-//     for (const harf of a) {
-//         if (harf == 'A' || harf == 'I' || harf == 'U' || harf == 'E' || harf == 'O') {
-//             console.log(harf)
-//         }
-//     }
-// }
+// ======== //
+// 11-mashq //
+// ======== //
 
-// showVowelsOnly(harflar)
+function showPlayerStatus(a) {
+  const players = [true, false, true, false];
+  let index = 0;
 
-// // ======= //
-// // 9-mashq //
-// // ======= //
+  for (const player of players) {
+    if (player) {
+      console.log(`Player  ${index}- online`);
+    } else {
+      console.log(`player ${index} - offline`);
+    }
 
-// const letters = ["M", "A", "R", "S"]
+    index++;
+  }
+}
 
-// function printCodeWithIndex (a) {
-//     for (const letter in a) {
-//         console.log(letter, "-", a[letter])
-//     }
-// }
+showPlayerStatus();
 
-// printCodeWithIndex(letters)
+// ======== //
+// 12-mashq //
+// ======== //
+
+function showDrinks(a) {
+  const drinks = [
+    ["Cola", "sweet"],
+    ["Water", "clear"],
+    ["Juice", "sweet"],
+  ];
+
+  for (const [drink, taste] of drinks) {
+    console.log(`${drink} - ${taste}`);
+  }
+}
+
+showDrinks();
+
+// ======== //
+// 13-mashq //
+// ======== //
+
+function printNameLengths(a) {
+  const names = ["ali", "zafar", "Humoyun", "anor"];
+
+  for (const name of names) {
+    console.log(name, "-", name.length);
+  }
+}
+
+printNameLengths();
